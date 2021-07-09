@@ -109,3 +109,78 @@ p {
   padding-top: 20px;
   padding-bottom: 50px;
 }
+.content {
+  width: 1250px;
+  margin: 0 auto;
+}
+.display_flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.list_links {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0;
+  padding: 0;
+}
+
+.list_links li {
+  list-style-type: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+.list_links a {
+  color: #242424;
+  text-decoration: none;
+  display: inline-block;
+  margin: 0px 10px;
+}
+
+.list_links_nav {
+  align-items: center;
+}
+
+.list_links_nav li a {
+  font-weight: 600;
+}
+.justify_content_space_between {
+  justify-content: space-between;
+}
+/* order form start */
+.order_form {
+  background-image: url("images/ProjectCover4.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.order_form form {
+  background-color: rgba(0, 0, 0, 0.541);
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  backdrop-filter: blur(5px);
+}
+.order_form form input,
+.order_form form textarea {
+  width: 45%;
+  border-radius: 10px;
+  background-color: #fff;
+  border: 0;
+  padding: 14px 25px;
+  font-size: 16px;
+  color: #000;
+  transition-duration: 0.3s;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+.order_form form textarea {
+  width: 100%;
+  height: 100px;
+}
+
+.order_form h1,
+.order_form h3 {
+  width: 100%;
+}
